@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/benwilhelm/metalsmith-hooks.git",
   "author": "Ben Wilhelm <ben@doublebeamdesign.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.7.0"
+  },
+  "scripts": {
+    "test": "jasmine test/index.test.js"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "lodash": "^4.17.4"
+  }
 }
