@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-hooks",
-  "version": "0.1.1",
+  "version": "0.1.2-pre",
   "description": "A Metalsmith plugin to add arbitrary hooks to your build.",
   "main": "index.js",
   "repository": "https://github.com/benwilhelm/metalsmith-hooks.git",
