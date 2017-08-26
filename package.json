@@ -1,7 +1,8 @@
 {
   "name": "metalsmith-hooks",
   "version": "0.1.2-pre",
-  "description": "A Metalsmith plugin to add arbitrary hooks to your build.",
+  "description": "A Metalsmith plugin to add arbitrary page hooks to your build.",
+  "keywords": ["metalsmith", "hooks", "page", "plugin", "callback", "per-page"],
   "main": "index.js",
   "repository": "https://github.com/benwilhelm/metalsmith-hooks.git",
   "author": "Ben Wilhelm <ben@doublebeamdesign.com>",

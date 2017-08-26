@@ -8,6 +8,12 @@ A metalsmith plugin for adding page-specific hooks to your build
 
 This plugin allows you to add page-specific hooks to your metalsmith build at arbitrary points.  Think of them as per-page plugins
 
+## Installation
+
+```
+npm install metalsmith-hooks
+```
+
 ## Usage
 
 First, add the `hooks` plugin to the point in your build that you'd like
@@ -16,6 +22,9 @@ option for each one.
 
 ```javascript
 // index.js
+
+let metalsmith = require('metalsmith');
+let hooks = require('metalsmith-hooks');
 
 metalsmith(__dirname)
 .metadata({
