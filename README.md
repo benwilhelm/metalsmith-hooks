@@ -1,4 +1,4 @@
-![travis build](https://travis-ci.org/benwilhelm/metalsmith-hooks?branch=master)
+![travis build](https://travis-ci.org/benwilhelm/metalsmith-hooks.svg?branch=master)
 
 
 # metalsmith-hooks
