@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Metalsmith plugin to add arbitrary hooks to your build.",
   "main": "index.js",
   "repository": "https://github.com/benwilhelm/metalsmith-hooks.git",
@@ -16,7 +16,7 @@
     "test": "jasmine",
     "coverage": "istanbul cover node_modules/jasmine/bin/jasmine.js",
     "coveralls": "yarn run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf coverage/*",
-    "bump" : "npm-bump"
+    "bump": "npm-bump"
   },
   "dependencies": {
     "async": "^2.5.0",
